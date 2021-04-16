@@ -31,7 +31,7 @@ public class testSelectionSort {
 
     SelectionSort temp1=new SelectionSort();
     int[] arraySort=temp1.basicSelectionSort(arr);
-    assertArrayEquals(arr,Sortedarr);
+    assertArrayEquals(Sortedarr,arr);
 	}
 	public void testNegative() {
     int[] arr=new int[5];
